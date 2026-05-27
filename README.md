@@ -116,8 +116,8 @@ cd autonomous-aerial-systems
 ### Step 2 — Read Week 1
 Go to [`week01/README.md`](./week01/README.md). Read it **completely** before doing anything.
 
-### Step 3 — Install MATLAB
-Follow [`week01/tasks/TASK_1_install.md`](./week01/tasks/TASK_1_install.md).
+### Step 3 — Complete Tasks
+Follow [`week01/tasks/`](./week01/tasks)
 
 ### Step 4 — Submit
 Follow [`week01/submissions/SUBMISSION_GUIDE.md`](./week01/submissions/SUBMISSION_GUIDE.md) exactly.
