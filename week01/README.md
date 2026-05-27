@@ -76,7 +76,6 @@ All files in `week01/submissions/YOUR_NAME/`:
 
 | # | File | Points |
 |---|---|---|
-
 | 1 | `autopilot_wk1_YOUR_NAME.slx` | 10 pts |
 | 2 | `matlab_screenshot_YOUR_NAME.png` | 2 pts |
 | 3 | `notes_YOUR_NAME.md / .txt / .pdf` | 2 pts |
@@ -90,13 +89,12 @@ Full submission guide: [`submissions/SUBMISSION_GUIDE.md`](./submissions/SUBMISS
 
 | Criterion | Points | What evaluators check |
 |---|---|---|
-
-| 6-DOF model — functional & subsystem-organised | 10 pts | Model runs, correct inputs/outputs |
-| 6-DOF model — trim analysis | 4 pts | % error vs analytical hover thrust, trim plot included |
+| 6-DOF model — functional & subsystem-organised | 10 pts | Model runs, correct inputs/outputs, Clean subsystem structure |
+| 6-DOF model — trim analysis | 6 pts | % error vs analytical hover thrust, trim plot included |
 | MATLAB installation screenshot | 2 pts | Library browser visible with all toolboxes |
 | Video annotation notes | 2 pts | Evidence of engagement with all 4 videos |
-| Trim Results | 6pts | Clean subsystem structure |
-| **Total** | **20 pts** | |
+
+| **Total** | **20 pts** |  |
 
 
 ---
