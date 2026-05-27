@@ -25,7 +25,7 @@ This is the most front-loaded week. Everything in Weeks 2–5 plugs into the mod
 ## 🔧 Tasks This Week
 
 ### Task 1 — Install MATLAB R2026 (1 hour)
-**Guide:** [`tasks/TASK_1_install.md`](./tasks/TASK_1_install.md)
+**Guide:** [`tasks/Installation.md`](./tasks/Installation.md)
 
 Required toolboxes: Simulink · Control System Toolbox · Aerospace Blockset · Stateflow · Signal Processing Toolbox
 
@@ -34,30 +34,15 @@ Required toolboxes: Simulink · Control System Toolbox · Aerospace Blockset · 
 ---
 
 ### Task 2 — Watch Video Resources  (2 hours)
-**Guide:** [`tasks/TASK_2_videos.md`](./tasks/TASK_2_videos.md)
+**Guide:** [`tasks/Video Resources.md`](./tasks/Video_Resources.md)
 
 Will be shared shortly
 
 ---
 
-### Task 3 — Write the Requirements Document (1.5 hours)
-**Guide:** [`tasks/TASK_3_requirements.md`](./tasks/TASK_3_requirements.md)
-**Template:** [`submissions/requirements_template.md`](./submissions/requirements_template.md)
 
-Write a formal requirements document with ≥8 measurable functional requirements covering all of R1–R8. Each requirement must follow the format:
-
-```
-[ID] | The autopilot shall [do X] | [numeric metric with unit] | [test method]
-```
-
-This document becomes your Week 5 verification matrix. Write it properly now.
-
-**Deliverable:** `requirements_doc_YOUR_NAME.pdf` (8 pts)
-
----
-
-### Task 4 — Build the 6-DOF Flight Dynamics Model (2.5 hours)
-**Guide:** [`tasks/TASK_4_sixdof.md`](./tasks/TASK_4_sixdof.md)
+### Task 3 — Build the 6-DOF Flight Dynamics Model (2.5 hours)
+**Guide:** [`tasks/Flight Dynamics.md`](./tasks/Flight_Dynamics_Model.md)
 
 This is the core engineering task of Week 1. You will build a Simulink model of a quadcopter's flight dynamics from scratch.
 
