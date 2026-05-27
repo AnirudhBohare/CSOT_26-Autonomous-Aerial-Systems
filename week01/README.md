@@ -76,11 +76,11 @@ All files in `week01/submissions/YOUR_NAME/`:
 
 | # | File | Points |
 |---|---|---|
-| 1 | `requirements_doc_YOUR_NAME.pdf` | 8 pts |
-| 2 | `autopilot_wk1_YOUR_NAME.slx` | 10 pts |
-| 3 | `matlab_screenshot_YOUR_NAME.png` | 1 pt |
-| 4 | `notes_YOUR_NAME.md / .txt / .pdf` | 1 pt |
-| 5 | `trim_results_YOUR_NAME.md / .png` | included in slx pts |
+
+| 1 | `autopilot_wk1_YOUR_NAME.slx` | 10 pts |
+| 2 | `matlab_screenshot_YOUR_NAME.png` | 2 pts |
+| 3 | `notes_YOUR_NAME.md / .txt / .pdf` | 2 pts |
+| 4 | `trim_results_YOUR_NAME.md / .png` | 6 pts |
 
 Full submission guide: [`submissions/SUBMISSION_GUIDE.md`](./submissions/SUBMISSION_GUIDE.md)
 
@@ -90,15 +90,14 @@ Full submission guide: [`submissions/SUBMISSION_GUIDE.md`](./submissions/SUBMISS
 
 | Criterion | Points | What evaluators check |
 |---|---|---|
-| Requirements — completeness (R1–R8 all present) | 4 pts | All 8 official requirements covered |
-| Requirements — measurability (numeric metric per req) | 4 pts | Each requirement has a number, unit, and test method |
-| 6-DOF model — functional & subsystem-organised | 6 pts | Model runs, correct inputs/outputs, clean subsystem structure |
+
+| 6-DOF model — functional & subsystem-organised | 10 pts | Model runs, correct inputs/outputs |
 | 6-DOF model — trim analysis | 4 pts | % error vs analytical hover thrust, trim plot included |
-| MATLAB installation screenshot | 1 pt | Library browser visible with all toolboxes |
-| Video annotation notes | 1 pt | Evidence of engagement with all 4 videos |
+| MATLAB installation screenshot | 2 pts | Library browser visible with all toolboxes |
+| Video annotation notes | 2 pts | Evidence of engagement with all 4 videos |
+| Trim Results | 6pts | Clean subsystem structure |
 | **Total** | **20 pts** | |
 
-Full rubric: [`evaluation/RUBRIC.md`](./evaluation/RUBRIC.md)
 
 ---
 
@@ -106,9 +105,9 @@ Full rubric: [`evaluation/RUBRIC.md`](./evaluation/RUBRIC.md)
 
 | Day | Task | Time |
 |---|---|---|
-| Day 1 | Install MATLAB R2026 + Watch Videos 1 & 2 | 2.5 hrs |
+| Day 1 | Install MATLAB R2026 + Watch Videos | 2.5 hrs |
 | Day 2 | Write requirements document | 1.5 hrs |
-| Day 3 | Watch Videos 3 & 4 + start Simulink model | 2 hrs |
+| Day 3 | Watch Videos + start Simulink model | 2 hrs |
 | Day 4 | Complete model, run trim analysis, submit | 1 hr |
 
 ---
@@ -127,8 +126,6 @@ Full rubric: [`evaluation/RUBRIC.md`](./evaluation/RUBRIC.md)
 - [ ] MATLAB R2026 installed with all 5 toolboxes
 - [ ] Library browser screenshot saved
 - [ ] All 4 videos watched with notes covering both requirements and dynamics
-- [ ] Requirements document has ≥ 8 requirements, all with numeric metrics
-- [ ] All 8 official requirements (R1–R8) covered
 - [ ] 6-DOF Simulink model built with correct inputs, outputs, and subsystems
 - [ ] Hover trim verified — position and attitude stay constant
 - [ ] % error computed and recorded
