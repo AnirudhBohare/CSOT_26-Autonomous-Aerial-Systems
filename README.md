@@ -129,7 +129,7 @@ Follow [`week01/submissions/SUBMISSION_GUIDE.md`](./week01/submissions/SUBMISSIO
 
 - 📺 **Playlist:** [Drone Autopilot Design & Simulation in Simulink](https://youtube.com/playlist?list=PLw9UeyR2OgE2uzMYHbvc1SLhZFiI9uM4p)
 - 📄 **Official Problem Statement:** [`docs/PROBLEM_STATEMENT.md`](./docs/PROBLEM_STATEMENT.md)
-- 📬 **Submission portal:** CSOT 2025 portal (link shared separately)
+- 📬 **Submission portal:** CSOT 2026 portal (link shared separately)
 
 ---
 
