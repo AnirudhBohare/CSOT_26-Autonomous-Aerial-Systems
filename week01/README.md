@@ -2,7 +2,9 @@
 ### Autonomous Aerial Systems · CSOT 2026 · AeroClub, IIT Delhi
 
 > **Dates:** 1–8 Jun 2026
+> 
 > **Points:** 20 pts
+> 
 > **Deadline:** To be announced
 
 ---
