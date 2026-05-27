@@ -14,7 +14,7 @@ Model-Based Design for Autonomous Aerial Systems — from mathematical model to 
 | **Series** | Autonomous Aerial Systems — Drone Autopilot Design & Simulation |
 | **Club** | AeroClub, IIT Delhi |
 | **Domain** | Aerial — CSOT 2026 |
-| **Duration** | 6 Weeks (1 june – 6 July 2026) |
+| **Duration** | 5 Weeks (1 June – 6 July 2026) |
 | **Effort** | 3–4 hours / week |
 | **Tools** | MATLAB R2026b / Simulink |
 | **Total Points** | 100 pts + 20 bonus |
@@ -25,7 +25,7 @@ Model-Based Design for Autonomous Aerial Systems — from mathematical model to 
 
 ## 🎯 What You Will Build
 
-By the end of Week 6, you will have a **single, cohesive Simulink project** that:
+By the end of Week 5, you will have a **single, cohesive Simulink project** that:
 
 - Models the full **6-DOF flight dynamics** of a quadcopter
 - Simulates a **realistic sensor suite** (IMU, barometer, magnetometer) with noise and bias
@@ -42,15 +42,13 @@ This mirrors exactly the workflow used at aerospace companies (Boeing, Airbus, N
 
 | Week | Dates | Topic | Points |
 |---|---|---|---|
-| [Week 1](./week01/README.md) | 25–31 May | Foundations & Requirements | 10 pts |
-| [Week 2](./week02/README.md) | 1–7 Jun | Flight Dynamics Modelling (6-DOF) | 15 pts |
+| [Week 1](./week01/README.md) | 25–31 May | Foundations & Requirements |
+| [Week 2](./week02/README.md) | 1–7 Jun | Flight Dynamics Modelling (6-DOF) |
 | [Week 3](./week03/README.md) | 8–14 Jun | Environment & Sensor Models | 15 pts |
-| [Week 4](./week04/README.md) | 15–21 Jun | Flight Control Law & Flight Manager | **25 pts** |
-| [Week 5](./week05/README.md) | 22–28 Jun | Sensor Fusion — Extended Kalman Filter | 20 pts |
-| [Week 6](./week06/README.md) | 29 Jun–6 Jul | Validation, Testing & Waypoint Mission | 20 pts + 20 bonus |
+| [Week 4](./week04/README.md) | 15–21 Jun | Flight Control Law & Flight Manager | 
+| [Week 5](./week05/README.md) | 22–28 Jun | Sensor Fusion — Extended Kalman Filter | 
+| [Week 6](./week06/README.md) | 29 Jun–6 Jul | Validation, Testing & Waypoint Mission | 
 | | | **Total** | **100 + 20 bonus** |
-
-> ⚠️ **Week 4 carries the most points (25 pts). Do not rush it.**
 
 ---
 
@@ -68,25 +66,6 @@ These are the 8 formal requirements your autopilot must satisfy. Every week buil
 | **R6** | State estimation — position/velocity via EKF | Error reported in m |
 | **R7** | Graceful mode transitions — Takeoff → Hover → Land | No abrupt jumps |
 | **R8** | Requirements traceability — all reqs verified via test matrix | Complete pass/fail matrix |
-
----
-
-## 🏆 Scoring & Grade Bands
-
-```
-Week 1 (10) + Week 2 (15) + Week 3 (15) + Week 4 (25) + Week 5 (20) + Week 6 (20) = 100 pts
-Bonus: +20 pts if all R1–R8 pass in the Week 6 verification matrix
-Maximum possible: 120 pts
-```
-
-| Score | Band | Award |
-|---|---|---|
-| ≥ 85 pts | 🥇 Gold | ECA credits + Medal + Inter-IIT team priority |
-| 65–84 pts | 🥈 Silver | ECA credits + Certificate |
-| 45–64 pts | 🥉 Bronze | Certificate |
-| All weeks submitted | Participation | Participation Certificate |
-
-> 💡 A Silver trainee who earns the +20 bonus (65 + 20 = 85) crosses into **Gold territory**.
 
 ---
 
@@ -114,7 +93,7 @@ autonomous-aerial-systems/
 │   └── resources/
 │       └── RESOURCES.md           ← Links, references, reading material
 │
-├── week02/ … week06/              ← Same structure, added each week
+├── week02/ … week05/              ← Same structure, added each week
 │
 ├── docs/
 │   ├── PROBLEM_STATEMENT.md       ← Full official problem statement
@@ -146,23 +125,11 @@ Follow [`week01/submissions/SUBMISSION_GUIDE.md`](./week01/submissions/SUBMISSIO
 
 ---
 
-## 👥 For Evaluators
-
-Each week's `evaluation/EVALUATOR_GUIDE.md` contains:
-- Exact scoring breakdown (quantitative + qualitative)
-- Common mistakes to watch for
-- Worked examples of strong vs weak submissions
-- Feedback phrasing templates
-
-Submissions are evaluated within **48 hours** of the deadline. The leaderboard in [`LEADERBOARD.md`](./LEADERBOARD.md) is updated after each batch.
-
----
 
 ## 📌 Important Links
 
 - 📺 **Playlist:** [Drone Autopilot Design & Simulation in Simulink](https://youtube.com/playlist?list=PLw9UeyR2OgE2uzMYHbvc1SLhZFiI9uM4p)
 - 📄 **Official Problem Statement:** [`docs/PROBLEM_STATEMENT.md`](./docs/PROBLEM_STATEMENT.md)
-- 🏅 **Leaderboard:** [`LEADERBOARD.md`](./LEADERBOARD.md)
 - 📬 **Submission portal:** CSOT 2025 portal (link shared separately)
 
 ---
@@ -170,11 +137,11 @@ Submissions are evaluated within **48 hours** of the deadline. The leaderboard i
 ## ⚖️ Rules
 
 1. All Simulink models must run on **MATLAB R2026b** with no missing toolboxes.
-2. Submissions after the deadline receive a **10 pt deduction per day**.
+2. Submissions after the deadline receive a penalty (leaderboard score deduction).
 3. Your `.slx` file must be **self-contained** — no broken paths or missing blocks.
 4. You may discuss concepts with peers but all code/models must be your own work.
 5. Screenshots must show **your own** MATLAB environment (watermark/username visible).
 
 ---
 
-*AeroClub, IIT Delhi · CSOT 2025 · Confidential*
+*AeroClub · IIT Delhi · CSOT 2026 *
