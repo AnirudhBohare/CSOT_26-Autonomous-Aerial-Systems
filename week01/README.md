@@ -11,7 +11,7 @@
 
 ## 🎯 What This Week Is About
 
-Week 1 is little rigorous — it covers what would normally be two separate weeks, so plan your time accordingly. By Sunday you need to have done three things:
+Week 1 lays the foundation for the entire program and introduces several core concepts and tools that will be used throughout the upcoming weeks. By the end of Sunday, you are expected to complete the following three tasks:
 
 1. **Installed MATLAB R2026** and verified all required toolboxes.
 2. **Written a formal Requirements Document** — the engineering specification your entire project will be tested against in Week 5.
