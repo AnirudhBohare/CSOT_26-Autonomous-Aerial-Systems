@@ -7,10 +7,10 @@
 
 | # | Title | Link |
 |---|---|---|
-| 1 | Intro to Quadcopter Autopilot & MBD | will be shared shortly |
-| 2 | Autopilot Function Requirements | --------""---------- |
-| 3 | Autopilot System Architecture | --------""---------- |
-| 4 | Modelling Flight Dynamics & Physical Systems | --------""---------- |
+| 1 | Intro to Quadcopter Autopilot & MBD | https://youtu.be/likYtvPMi_4?si=2AQB-J9p7HEC_7NK |
+| 2 | Autopilot Function Requirements | https://youtu.be/FTP9j-4FAig?si=VmBM32T-aLSqt0Bl |
+| 3 | Autopilot System Architecture | https://youtu.be/kxFRBKJurI4?si=OMLTGAT4ylNRX62k |
+| 4 | Modelling Flight Dynamics & Physical Systems | https://youtu.be/Dx8YTXxVjAU?si=u5GF-VMlV4pDhWjw |
 
 ---
 
