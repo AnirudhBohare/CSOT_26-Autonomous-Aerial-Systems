@@ -5,7 +5,7 @@
 
 **Deliverable:** `autopilot_wk1_YOUR_NAME.slx` + trim results (10 pts)
 
-**Watch first:** Video Resources 
+**Watch first:** All Videos in Resources.md
 
 ---
 
