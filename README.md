@@ -86,9 +86,7 @@ autonomous-aerial-systems/
 │   ├── submissions/
 │   │   ├── SUBMISSION_GUIDE.md    ← What to submit, how, and where
 │   │   └── requirements_template.md ← Starter template for your doc
-│   ├── evaluation/
-│   │   ├── RUBRIC.md              ← Exact scoring criteria (for trainees)
-│   │   └── EVALUATOR_GUIDE.md     ← Detailed guide for evaluators only
+│   │   
 │   └── resources/
 │       └── RESOURCES.md           ← Links, references, reading material
 │
@@ -96,7 +94,7 @@ autonomous-aerial-systems/
 │
 ├── docs/
 │   ├── PROBLEM_STATEMENT.md       ← Full official problem statement
-│   └── REQUIREMENTS_MATRIX.md    ← Master R1–R8 verification matrix template
+│   
 │
 └── scripts/
     └── check_submission.m         ← MATLAB script to self-check Week 1 doc
