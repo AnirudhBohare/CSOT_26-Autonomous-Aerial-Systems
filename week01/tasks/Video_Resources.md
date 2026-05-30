@@ -9,7 +9,12 @@
 
 ## Videos 
 
-Will be shared shortly
+Watch in this order: Video 1 → Video 2 → (write requirements) → Video 3 → Video 4 → (build model).
+
+- Video1 : https://youtu.be/likYtvPMi_4?si=LdMDr5mo344aipJP
+- Video2 : https://youtu.be/FTP9j-4FAig?si=hSJ92OvDt8-VFRug
+- Video3 : https://youtu.be/kxFRBKJurI4?si=jFt3n17xizsoM2ku
+- Video4 : https://youtu.be/Dx8YTXxVjAU?si=GV2TinO263Rfw-qU
 
 ---
 
@@ -73,6 +78,6 @@ Learn by answering each question as it comes up in the video.
 
 Save as `notes_YOUR_NAME.md`, `.txt`, or `.pdf`.
 
-**Minimum for full marks:** Answers to at least 20 of the 26 questions, plus all 3 synthesis questions. Bullet points are fine.
+**Minimum for full marks:** Answers to all 3 synthesis questions. Bullet points are fine.
 
 **Scores 0:** "Watched all videos" with no content.
