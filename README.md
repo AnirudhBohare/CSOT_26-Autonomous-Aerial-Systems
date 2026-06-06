@@ -82,10 +82,9 @@ autonomous-aerial-systems/
 │   ├── tasks/
 │   │   ├── TASK_1_install.md      ← MATLAB installation checklist
 │   │   ├── TASK_2_videos.md       ← Video-watching guide with annotations
-│   │   └── TASK_3_requirements.md ← How to write the requirements doc
+│   │   └── TASK_3_Flight Model.md ← How to build 6 DOF flight dynamics model.
 │   ├── submissions/
-│   │   ├── SUBMISSION_GUIDE.md    ← What to submit, how, and where
-│   │   └── requirements_template.md ← Starter template for your doc
+│   │   ├── SUBMISSION_GUIDE.md    ← What to submit, how, and where   
 │   │   
 │   └── resources/
 │       └── RESOURCES.md           ← Links, references, reading material
