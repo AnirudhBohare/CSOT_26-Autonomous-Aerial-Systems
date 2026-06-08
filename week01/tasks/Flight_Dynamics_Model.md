@@ -175,7 +175,7 @@ In the MATLAB command window after simulation:
 omega_hover_analytical = sqrt((0.5 * 9.81) / (4 * 2.9e-5));
 
 % Read your simulated hover rotor speed (the value you had to set to achieve hover)
-omega_hover_simulated = 205.631xx; % replace with your value if different
+omega_hover_simulated = 205.63xx; % replace with your value if different
 
 pct_error = abs(omega_hover_simulated - omega_hover_analytical) / omega_hover_analytical * 100;
 fprintf('Hover thrust % error: %.2f%%\n', pct_error);
