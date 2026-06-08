@@ -158,12 +158,12 @@ At hover, the total thrust equals weight:
 4 × kT × ω_hover² = m × g
 ω_hover = sqrt((m × g) / (4 × kT))
         = sqrt((0.5 × 9.81) / (4 × 2.9×10⁻⁵))
-        = sqrt(42284)
-        ≈ 205.630737002 rad/s
+        = sqrt(42284.4827586)
+        ≈ 205.6319108471 rad/s
 ```
 
 ### Running the Trim Simulation
-1. Set all 4 rotor inputs to `ω_hover = 205.6 rad/s` using Constant blocks.
+1. Set all 4 rotor inputs to `ω_hover = 205.631xx rad/s` using Constant blocks.
 2. Set all initial conditions to zero (position = [0,0,0], attitude = [0,0,0], rates = [0,0,0]).
 3. Run simulation for **5 seconds**.
 4. Check the Scope on z — it must stay at 0 ± 0.01 m.
@@ -175,7 +175,7 @@ In the MATLAB command window after simulation:
 omega_hover_analytical = sqrt((0.5 * 9.81) / (4 * 2.9e-5));
 
 % Read your simulated hover rotor speed (the value you had to set to achieve hover)
-omega_hover_simulated = 205.6; % replace with your value if different
+omega_hover_simulated = 205.631xx; % replace with your value if different
 
 pct_error = abs(omega_hover_simulated - omega_hover_analytical) / omega_hover_analytical * 100;
 fprintf('Hover thrust % error: %.2f%%\n', pct_error);
@@ -188,7 +188,7 @@ Create a file `trim_results_YOUR_NAME.md` with this table:
 
 | Parameter | Analytical | Simulated | % Error |
 |---|---|---|---|
-| Hover rotor speed ω (rad/s) | 205.6 | ___ | ___% |
+| Hover rotor speed ω (rad/s) | 205.63191 | ___ | ___% |
 | Altitude z after 5 s (m) | 0.000 | ___ | — |
 | Roll φ after 5 s (°) | 0.000 | ___ | — |
 | Pitch θ after 5 s (°) | 0.000 | ___ | — |
