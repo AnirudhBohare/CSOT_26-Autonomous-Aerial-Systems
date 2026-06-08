@@ -159,7 +159,7 @@ At hover, the total thrust equals weight:
 ω_hover = sqrt((m × g) / (4 × kT))
         = sqrt((0.5 × 9.81) / (4 × 2.9×10⁻⁵))
         = sqrt(42284)
-        ≈ 205.6 rad/s
+        ≈ 205.630737002 rad/s
 ```
 
 ### Running the Trim Simulation
