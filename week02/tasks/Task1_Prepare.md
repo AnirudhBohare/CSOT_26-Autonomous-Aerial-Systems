@@ -1,4 +1,4 @@
-# Task 1 — Prepare and Model Wind Disturbance
+# Task 1 — Prepare and Model Wind 
 ### Week 2 · Autonomous Aerial Systems · CSOT 2026
 
 **Estimated time:** 1 hour
@@ -36,7 +36,7 @@
 ---
 
 
-# Wind Disturbance Model
+# Wind Modelling
 
 ---
 
