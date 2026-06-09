@@ -78,7 +78,7 @@ All files in submissions/week02 — no written reports:
 | 2 | comparison plots (4 PNGs or 1 combined) | 4 pts |
 | 3 | snr_result_YOUR_NAME.png (MATLAB command window showing SNR) | 2 pts |
 
-See submissions/SUBMISSION_GUIDE.md for full instructions.
+See [`submissions/Submission_Guide.md`](./submissions/Submission_Guide.md) for full instructions.
 
 ---
 
@@ -129,6 +129,6 @@ See submissions/SUBMISSION_GUIDE.md for full instructions.
 - [ ] SNR computed and in 40–70 dB range
 - [ ] PR opened: [Week 2] Your Name — Submission
 
-Resources: resources/RESOURCES.md
+Resources: [`resources/Resources.md`](./resources/Resources.md)
 
 AeroClub, IIT Delhi · CSOT 2026
