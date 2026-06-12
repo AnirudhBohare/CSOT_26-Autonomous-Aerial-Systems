@@ -37,8 +37,8 @@ Block 1 — Steady crosswind force:
 
 Block 2 — Turbulence:
   Band-Limited White Noise block
-  Noise power: [0.001; 0.001; 0]
-  Sample time: 0.001
+    Noise power: [1e-6; 1e-6; 0]
+    Sample time: 0.001
 
 Block 3 — Sum both:
   Add Block: Constant + Noise → output F_wind [3x1]
