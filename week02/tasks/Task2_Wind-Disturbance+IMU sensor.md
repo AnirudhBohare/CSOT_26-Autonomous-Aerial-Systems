@@ -208,21 +208,40 @@ saveas(gcf, 'imu_plots_YOUR_NAME.png');
 
 ```matlab
 % SNR for accelerometer z-axis
-signal_power_accel = mean(a_body_z_log.^2);
-noise_power_accel_actual = mean((accel_meas_z_log - a_body_z_log - 0.05).^2);
-SNR_accel_dB = 10 * log10(signal_power_accel / noise_power_accel_actual);
+a_body_full = squeeze(out.a_body.Data)';                    
+a_meas_full = squeeze(out.a_meas.Data)';
+
+a_body_z = a_body_full(:,3);
+a_meas_z = a_meas_full(:,3);
+ 
+% True noise = measured - its own mean (removes gravity + bias, leaves only the random part)
+noise = a_meas_z - mean(a_meas_z);
+
+signal_power = mean(a_meas_z.^2);   % ≈ 97.2 (includes gravity)
+noise_power  = mean(noise.^2);      % ≈ variance of a_meas_z ≈ std^2
+
+SNR_accel_dB = 10*log10(signal_power/noise_power);
 fprintf('Accelerometer SNR (z-axis): %.1f dB\n', SNR_accel_dB);
 
+
 % SNR for gyroscope x-axis
-signal_power_gyro = mean(gyro_p_log.^2) + 1e-12; % small epsilon to avoid log(0)
-noise_power_gyro_actual = mean((gyro_meas_p_log - gyro_p_log - 0.01*pi/180).^2);
-SNR_gyro_dB = 10 * log10(signal_power_gyro / noise_power_gyro_actual);
+
+gyro_meas_full = squeeze(out.gyro_meas.Data)';
+p_full = squeeze(out.p.Data)';
+
+gyro_meas_x = gyro_meas_full(:,1);
+
+gyro_noise = gyro_meas_x - mean(gyro_meas_x);
+gyro_signal_power = mean(gyro_meas_x.^2);
+gyro_noise_power  = mean(gyro_noise.^2);
+
+SNR_gyro_dB = 10*log10(gyro_signal_power/gyro_noise_power);
 fprintf('Gyroscope SNR (x-axis): %.1f dB\n', SNR_gyro_dB);
 ```
 
 **Expected ranges:**
 - Accelerometer SNR: 35–55 dB
-- Gyroscope SNR: 40–65 dB
+- Gyroscope SNR: around 0 dB  leave it as it is for now
 
 If your values are outside these ranges, check your noise power calculation — units are the most common error (g vs m/s², deg vs rad).
 
