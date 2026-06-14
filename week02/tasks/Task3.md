@@ -233,15 +233,15 @@ figure('Position', [100 100 1000 400]);
 subplot(1,2,1);
 plot(out.tout, out.alt_true_log, 'b-', 'LineWidth', 1.5, 'DisplayName', 'True altitude');  
 hold on;
-plot(tout, alt_meas_log, 'r-', 'LineWidth', 0.8, 'DisplayName', 'Barometer');
+plot(out.tout, out.alt_meas_log, 'r-', 'LineWidth', 0.8, 'DisplayName', 'Barometer');
 xlabel('Time (s)'); ylabel('Altitude (m)');
 title('Barometer — True vs Measured'); legend; grid on;
 
 % Magnetometer comparison
 subplot(1,2,2);
-plot(tout, psi_true_log * 180/pi, 'b-', 'LineWidth', 1.5, 'DisplayName', 'True heading');
+plot(out.tout, out.psi_true_log * 180/pi, 'b-', 'LineWidth', 1.5, 'DisplayName', 'True heading');
 hold on;
-plot(tout, heading_meas_log * 180/pi, 'r-', 'LineWidth', 0.8, 'DisplayName', 'Magnetometer');
+plot(out.tout, out.heading_meas_log * 180/pi, 'r-', 'LineWidth', 0.8, 'DisplayName', 'Magnetometer');
 xlabel('Time (s)'); ylabel('Heading (degrees)');
 title('Magnetometer — True vs Measured'); legend; grid on;
 
