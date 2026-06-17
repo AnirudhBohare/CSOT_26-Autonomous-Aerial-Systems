@@ -7,8 +7,8 @@
 
 | # | Title | Link |
 |---|---|---|
-| Video 1 | Flight Control Law Design | https://youtube.com/playlist?list=PLw9UeyR2OgE2uzMYHbvc1SLhZFiI9uM4p (Video 7) |
-| Video 2 | Flight Management Design | https://youtube.com/playlist?list=PLw9UeyR2OgE2uzMYHbvc1SLhZFiI9uM4p (Video 8) |
+| Video 1 | Flight Control Law Design | https://youtube.com/playlist?list=PLw9UeyR2OgE2uzMYHbvc1SLhZFiI9uM4p       |
+| Video 2 | Flight Management Design | https://youtube.com/playlist?list=PLw9UeyR2OgE2uzMYHbvc1SLhZFiI9uM4p        |
 
 Watch Video 1 before Task 1 (Cascaded PID). Watch Video 2 before Task 2 (Stateflow).
 
@@ -97,17 +97,23 @@ Use for: t_takeoff_start, t_land_start
 
 ### 1 — Cascaded PID for Quadcopter
 **Title:** Design and Implementation of a PD/PID-Controlled Quadrotor
+
 **Why read it:** Section 3 derives the same cascaded PID structure you are building, with the inner/outer loop separation explained mathematically.
+
 **Source:** ResearchGate (search the title)
 
 ### 2 — PX4 Flight Mode Architecture
 **Title:** PX4 Flight Stack Documentation — Commander Module
+
 **Why read it:** Shows how an industry flight controller (used in real drones) implements mode transitions. Directly analogous to your Stateflow chart.
+
 **Link:** https://docs.px4.io/main/en/concept/flight_modes.html
 
 ### 3 — Simulink-Based Quadcopter Control (Practical)
 **Title:** Modelling and Attitude Control of Quadrotor in Simulink/MATLAB
+
 **Why read it:** Very close to your implementation — complete Simulink model with attitude PID. Figures show how subsystems are connected.
+
 **Source:** IEEE Xplore or ResearchGate
 
 ---
