@@ -1,7 +1,7 @@
 # Week 5 — Full Autopilot Integration & System Validation
 ### Autonomous Aerial Systems · CSOT 2026 · AeroClub, IIT Delhi
 
-> **Dates:** 10 Jun – 15 Jul 2026
+> **Dates:** 10 July – 15 Jul 2026
 
 > **Points:** 25 pts (core) + 20 pts (bonus) = 45 pts total
 
